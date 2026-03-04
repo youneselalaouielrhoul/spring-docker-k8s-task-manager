@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   user-service:
     build:
@@ -22,3 +20,15 @@ services:
     container_name: task-service-container
     ports:
       - "8082:8082"
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: my-frontend-service:latest
+    container_name: frontend-container
+    ports:
+      - "5173:80"
+    depends_on:
+      - user-service
+      - task-service
