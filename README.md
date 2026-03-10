@@ -84,7 +84,7 @@ This is the fastest way to get the entire stack running locally.
 
 ```bash
 # Clone the repository
-git clone https://github.com/youneselalaouielrhoul/spring-docker-k8s-task-manager.git
+git clone https://github.com/youneselalaouielrhoul/spring-react-docker-k8s-CI-CD-microservices-task-manager.git
 cd spring-docker-k8s-task-manager
 
 # Build and start all services
