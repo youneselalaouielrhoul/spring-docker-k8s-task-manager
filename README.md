@@ -8,9 +8,9 @@ A production-style **microservices** application built with **Spring Boot**, **D
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                        React Frontend                        │
-│                  (Vite · React · Nginx)                      │
-│                         :5173                                │
+│                        React Frontend                       │
+│                  (Vite · React · Nginx)                     │
+│                         :5173                               │
 └───────────────┬───────────────────────┬─────────────────────┘
                 │                       │
                 ▼                       ▼
@@ -238,7 +238,3 @@ This project was built to demonstrate practical, interview-relevant skills:
 - ✅ Using **Spring Boot Actuator** for observability
 
 ---
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
